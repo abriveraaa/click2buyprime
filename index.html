@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <link rel="stylesheet" href="/assets/styles/css/style.css" />
+    <!-- <link rel="stylesheet" href="/assets/styles/css/media-queries.css" /> -->
+  </head>
+  <body>
+    <div class="alert--1">CLICK2BUY'S RESPONSE TO COVID19</div>
+    <nav class="navigation">
+      <input type="checkbox" id="check" class="bar">
+      <label for="check" class="bar">
+        <span class="bar-icon"></span>
+      </label>
+      <div class="nav-logo">
+        <img src="./assets/images/logo.png" alt="CLICK2BUY">
+      </div>
+      <ul class="nav-items">
+        <li class="nav-item home">
+          <a href="#" class="link nav-item--link active arrow">Home</a>
+          <ul class="nav-items--home">
+            <li class="nav-item nav-item--home">
+              <a href="#" class="link nav-item--link">About Us</a>
+            </li>
+            <li class="nav-item nav-item--home">
+              <a href="/help-and-settings.html" class="link nav-item--link">How It Works</a>
+            </li>
+            <li class="nav-item nav-item--home">
+              <a href="#" class="link nav-item--link">FAQs</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="link nav-item--link">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a href="/components/pages/printer/index.html" class="link nav-item--link">Eligible Printers</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="link nav-item--link">Exclusive Deals</a>
+        </li>
+        <li class="nav-item">
+          <a href="/components/pages/account/login.html" class="link nav-item--link">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="link nav-item--link bag-icon">Cart</a>
+        </li>
+      </ul>
+      <div class="bag">
+        <a href="#" class="bag-icon"></a>
+      </div>
+    </nav>
+    <main class="main-content">
+      <section class="hero-container">
+        <div class="hero">
+          <div class="hero-left">
+            <img src="./assets/images/heropic.png" alt="" class="hero-pic">
+          </div>
+          <div class="hero-right">
+            <img src="./assets/images/herotext.jpg" alt="" class="hero-pic">
+          </div>
+        </div>
+        <div class="alert--2">Free Shipping - Order Today</div>
+      </section>
+      <section class="product-container">
+        <div class="product-tile">
+          <div class="card">
+            <img src="./assets/images/inkcartridges.jpg" alt="Ink Cartridges">
+          </div>
+          <div class="card">
+            <img src="./assets/images/lastertoner.jpg" alt="Laser Toner">
+          </div>
+          <div class="card">
+            <img src="./assets/images/printers.jpg" alt="Printers">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-pic">
+        <img src="./assets/images/footer.png" alt="Footer" class="footer-pic--1">
+      </div>
+      <div class="footer-info">
+        <div class="footer-info--menu">
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <a class="link footer-menu-item--link" href="#">About click2buy Prime</a>
+          </li>
+          <li class="footer-menu-item">
+              <a class="link footer-menu-item--link" href="#">Terms and Condition</a>
+          </li>
+          <li class="footer-menu-item">
+              <a class="link footer-menu-item--link" href="#">Privacy Policy</a>
+          </li>
+          <li class="footer-menu-item">
+              <a class="link footer-menu-item--link" href="/help-and-settings.html">Help & Settings</a>
+          </li>
+          <li class="footer-menu-item">
+              <a class="link footer-menu-item--link" href="#">Delivery Schedule</a>
+          </li>
+          <li class="footer-menu-item">
+              <a class="link footer-menu-item--link" href="#">Modes of Payment</a>
+          </li>
+          <li class="footer-menu-item">
+              <a class="link footer-menu-item--link" href="#">Contact Us</a>
+          </li>
+          </ul>
+          <p class="text-right">All Content Copyright 2020</p>
+          <hr class="line">
+        </div>
+        <div class="footer-info--contact">
+          <ul class="footer-contact">
+            <li class="footer-contact-item">MANILA (+632) 8689-5000</li>
+            <li class="footer-contact-item">CEBU (+6332) 260-2071</li>
+            <li class="footer-contact-item">Email: info@ics.com.ph</li>
+            <li class="footer-contact-item">Toll-Free No: 1-800-10-1427273</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      $(document).ready(function() {
+        $("ul.nav-items::after").on('click', function() {
+          alert("gg");
+        });
+      });
+    </script>
+  </body>
+</html>
