@@ -1323,6 +1323,10 @@ main, section, h1, li, img, nav, p, div, .navigation {
     height: 35vh;
   }
 
+  .footer {
+    font-size: .9rem;
+  }
+
   .footer-pic {
     display: none;
   }
