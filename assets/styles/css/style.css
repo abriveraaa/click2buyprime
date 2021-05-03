@@ -1223,6 +1223,18 @@ main, section, h1, li, img, nav, p, div, .navigation {
     height: 45vh !important;
   }
 
+  .button-enroll {
+    line-height: 1.2;
+  }
+
+  .button-small {
+    width: 100%;
+  }
+
+  .product-history-list--image {
+    width: 95px;
+  }
+
   
 }
 
