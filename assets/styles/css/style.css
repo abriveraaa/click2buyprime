@@ -1186,12 +1186,17 @@ main, section, h1, li, img, nav, p, div, .navigation {
   } 
 }
 @media (min-width: 300px) and (max-width: 599px){ 
+
+  .nav-logo {
+    width: 10rem;
+  }
+
   .bar-icon::after, .bag-icon::after {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .hero, .hero-pic {
-    height: 50vh !important;
+    height: 40vh !important;
   }
 
   .hero-pic--help {
@@ -1208,6 +1213,14 @@ main, section, h1, li, img, nav, p, div, .navigation {
 
   .text-secondary {
     font-size: .9rem !important;
+  }
+
+  input {
+    width: 150px !important;
+  }
+
+  .footer-menu {
+    height: 45vh !important;
   }
 
   
