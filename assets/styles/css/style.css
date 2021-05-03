@@ -269,6 +269,7 @@ hr {
   position: absolute;
   opacity: 0;
   left: 0;
+  top: -240px;
   height: 0;
   background-color: #442f56;
   width: 6rem;
@@ -1215,10 +1216,6 @@ main, section, h1, li, img, nav, p, div, .navigation {
     font-size: .9rem !important;
   }
 
-  input {
-    width: 150px !important;
-  }
-
   .footer-menu {
     height: 45vh !important;
   }
@@ -1461,7 +1458,12 @@ main, section, h1, li, img, nav, p, div, .navigation {
     padding-top: 13vh;
   }
 
-  .nav-item.home:hover > ul.nav-items--home, .nav-item.account-hover:hover > .nav-items--account {
+  li.nav-item.home:hover + ul.nav-items--home {
+    width: 20rem;
+    top: 0;
+   }
+
+   .account-hover:hover .nav-item.nav-items--account {
     width: 20rem;
    }
 
