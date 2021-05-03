@@ -821,8 +821,7 @@ hr {
 }
 
 .login {
-  display: flex;
-  justify-content: center;
+  width: 35rem;
 }
 
 .login-container {
@@ -838,7 +837,7 @@ hr {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
-  padding: 3rem 6rem;
+  padding: 3rem;
 }
 
 .login-card--header {
@@ -1192,6 +1191,10 @@ main, section, h1, li, img, nav, p, div, .navigation {
     width: 10rem;
   }
 
+  .login {
+    width: 20rem;
+  }
+
   .bar-icon::after, .bag-icon::after {
     font-size: 1.3rem;
   }
@@ -1314,6 +1317,10 @@ main, section, h1, li, img, nav, p, div, .navigation {
 
   .button {
     padding: 1.5vw 7vw;
+  }
+
+  .login {
+    width: 25rem;
   }
 
 }
