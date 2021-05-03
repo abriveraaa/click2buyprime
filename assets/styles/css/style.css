@@ -1188,7 +1188,7 @@ main, section, h1, li, img, nav, p, div, .navigation {
 @media (min-width: 300px) and (max-width: 599px){ 
 
   .nav-logo {
-    width: 10rem;
+    width: 12rem;
   }
 
   .login {
